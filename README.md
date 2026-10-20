@@ -25,7 +25,7 @@ The app opens in a browser. Generate a new key in the Hide tab, save it separate
 ## Run the checks
 
 ```powershell
-python -m unittest discover -s tests -v
+python -m unittest discover -s . -p "test_*.py" -v
 ```
 
 ## Design notes
