@@ -1,6 +1,30 @@
 
+# Python virtual environment
 .venv/
+
+# Python cache files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 *.key
+*.pem
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Test and development artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
